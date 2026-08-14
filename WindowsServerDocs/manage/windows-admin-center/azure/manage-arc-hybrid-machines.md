@@ -141,6 +141,9 @@ To use Windows Admin Center in the Azure portal, the Windows Admin Center agent 
 - 3 GB of RAM or more
 - Azure Arc agent version 1.13.21320.014 or later
 
+> [!NOTE]
+> For non-domain-joined Windows Server machines, the Remote Desktop feature in Windows Admin Center supports authentication using local user accounts only. Windows Active Directory domain accounts and Microsoft Entra ID accounts are not supported.
+
 ### Networking requirements
 
 The hybrid machine must meet the following networking requirements:
